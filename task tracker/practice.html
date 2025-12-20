@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="src/style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="perfil">
+            <div id="fecha">12/19/2025</div>
+            <h1>Hola, Steve</h1>
+        </div>
+            <div class="input-container" >
+                <input type="text" id="input-box" placeholder="Start writing and press enter to add a task">
+                <button onclick="agregarTarea()" id="button" class="fa-solid fa-delete-left"></button>
+                
+            </div>
+        <div class="listTareas" >
+            <h3>estas son tus tareas pendientes</h3>
+
+            <ul id="listas" > <!-- las tareas se agregan aqui -->
+               <li>
+                    <i class="fa-regular fa-square" data="realizado" id="0"> </i>
+                    <p class="text">Hacer ejercicio</p>
+                    <i class="fas fa-trash de" data="eliminado" id="0"></i>
+               </li> 
+                <li>
+                      <i class="fa-regular fa-square" data="realizado" id="1"> </i>
+                      <p class="text">Estudiar JavaScript</p>
+                        <i class="fas fa-trash de" data="eliminado" id="1"></i>
+                </li>
+                <li>
+                      <i class="fa-regular fa-square" data="realizado" id="2"> </i>
+                      <p class="text">Resolve a ux ui problem</p>       
+                        <i class="fas fa-trash de" data="eliminado" id="2"></i> 
+                </li>
+            </ul>
+        </div>
+    </div> 
+    <script src="/src/script.js"></script>
+</body>
+</html>

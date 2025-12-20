@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {   
+     font-family: 'Prompt', sans-serif;
+} 
+
+
+.container {
+  width: 600px;
+  max-width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-container i:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  border: 2px solid black;
+  margin: 20px  0;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding-left: none;
+  
+}
+
+button {
+  
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.listTareas i:hover{
+  color: rgb(172, 238, 98);
+  cursor: pointer;
+}
+
+.listTareas li {
+  display: flex;
+  border-radius: 15px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+
+}
+
+.text {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.line-through {
+  text-decoration: line-through;
+} 
+
+
+
+
+
